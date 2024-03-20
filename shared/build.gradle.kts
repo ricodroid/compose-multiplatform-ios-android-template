@@ -45,6 +45,8 @@ kotlin {
             iosSimulatorArm64Main.dependsOn(this)
         }
     }
+
+    task("testClasses")
 }
 
 android {
